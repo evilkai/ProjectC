@@ -9,7 +9,7 @@ for i in range(5):
         file.write("a")
     os.system('git add .')
     os.system('git commit --date="' + d +'" -m "commit"')
-    os.system('git push origin main')
+    os.system('git push origin master')
 
     for i in range(randint(0,2)):
         n2 = randint(numb-2,numb+1)
@@ -19,4 +19,4 @@ for i in range(5):
                 file.write("a")
             os.system('git add .')
             os.system('git commit --date="' + v +'" -m "commit"')
-            os.system('git push origin main')
+            os.system('git push origin master')
